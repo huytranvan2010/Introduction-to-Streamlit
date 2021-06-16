@@ -1,8 +1,6 @@
 Streamlit là một open-source Python lib, nó giúp ta dễ dàng tạo một web app cho MachineLearning và Data Science. Đối với một người có rất ít kiến thức về HTML, CSS, JavaScript thì đây có lẽ là công cụ rất phù hợp với mình để demo các sản phẩm AI. Chúng ta có thể test cục bộ được, sau đó muốn deploy lên internet có thể dùng Heroku, Streamlit hay Ngrok đều được cả. Trên trang của streamlit có câu slogan:
 > **The fastest way to build and share data apps**
 
-<img src="https://www.google.ru/url?sa=i&url=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20200616005364%2Fen%2FStreamlit-Raises-21M-in-Series-A-Funding-From-GGV-Capital-and-Gradient-Ventures-to-Amplify-the-Impact-of-Data-Science-and-Machine-Learning&psig=AOvVaw0EXEczcb5rXtz3KPCo81cf&ust=1623899354333000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCKyNOWm_ECFQAAAAAdAAAAABAD">
-
 Trong bài này chúng ta sẽ đi tìm hiểu sơ bộ trước về streamlit, bài sau chúng ta sẽ thử deploy model.
 ##### 1. Cài đặt
 ```python
@@ -48,7 +46,7 @@ st.text("Hiển thi luôn cả chart")
 hart_data = pd.DataFrame(np.random.randn(20, 3), columns=['a', 'b', 'c'])
 st.line_chart(hart_data)
 ```
-![](demo.png)
+<img src="../images/introstreamlit/demo.png" style="display:block; margin-left:auto; margin-right:auto" width="300"/>
 
 Ngoài việc hiển thị thông tin streamlit cũng cho chúng ta tương tác thông qua một số classes như:
 * Sử dụng checkbox
@@ -69,4 +67,3 @@ Trên đây mình đã giới thiệu sơ qua về streamlit một công cụ đ
 1. https://streamlit.io/ 
 1. https://viblo.asia/p/deploy-heroku-with-streamlit-in-machinelearning-maGK7049Zj2
 2. https://datasciblog.github.io/2019/12/26/building-app/?fbclid=IwAR3oanG6zbXiqbSGgrGU1Xf_p6H_Lo-qIVpP98kT3N5iA_lD9drn4O2DCww
-3.
