@@ -1,8 +1,6 @@
 Streamlit là một open-source Python lib, nó giúp ta dễ dàng tạo một web app cho MachineLearning và Data Science. Đối với một người có rất ít kiến thức về HTML, CSS, JavaScript thì đây có lẽ là công cụ rất phù hợp với mình để demo các sản phẩm AI. Chúng ta có thể test cục bộ được, sau đó muốn deploy lên internet có thể dùng Heroku, Streamlit hay Ngrok đều được cả. Trên trang của streamlit có câu slogan:
 > **The fastest way to build and share data apps**
 
-<img src="https://www.google.ru/url?sa=i&url=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20200616005364%2Fen%2FStreamlit-Raises-21M-in-Series-A-Funding-From-GGV-Capital-and-Gradient-Ventures-to-Amplify-the-Impact-of-Data-Science-and-Machine-Learning&psig=AOvVaw0EXEczcb5rXtz3KPCo81cf&ust=1623899354333000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCKyNOWm_ECFQAAAAAdAAAAABAD">
-
 Trong bài này chúng ta sẽ đi tìm hiểu sơ bộ trước về streamlit, bài sau chúng ta sẽ thử deploy model.
 ##### 1. Cài đặt
 ```python
